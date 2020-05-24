@@ -6,7 +6,7 @@ import pickle
 import json
 import time
 
-video_file_path = r"video.mp4"
+video_file_path = r"inputs/video.mp4"
 
 config  = "yolov3-tiny_custom.cfg"
 weights = "void_weights/yolov3-tiny_custom_last.weights"
