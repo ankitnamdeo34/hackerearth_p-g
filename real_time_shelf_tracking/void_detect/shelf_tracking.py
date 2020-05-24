@@ -36,14 +36,14 @@ shelf_start = 70
 shelf_end  = 825
 shelf_len = shelf_end - shelf_start
 
-r1 = 228
+r1 = 226
 r2 = 287
 r3 = 346
 r4 = 404
-r5 = 462
-r6 = 510
+r5 = 459
+r6 = 508
 r7 = 555
-r8 = 605
+r8 = 603
 row_col = (0,255,0)
 
 r1_area = shelf_len*(r2-r1)
