@@ -1,0 +1,6 @@
+darknet.exe detector train custom_data/detector.data custom_data/cfg/yolov3-tiny_custom.cfg backup/tiny_custom_last.weights
+
+darknet.exe detector test custom_data/detector.data custom_data/cfg/yolov3-tiny_custom.cfg backup/yolov3-tiny_custom_last.weights custom_data/images/87.jpg
+
+
+dir/s/b *.jpg > train.txt
